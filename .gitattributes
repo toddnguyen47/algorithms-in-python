@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# These files will be ignored
+*.jpg binary
+*.png binary
