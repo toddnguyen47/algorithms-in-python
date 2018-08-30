@@ -1,0 +1,8 @@
+Pillow>=5.2.0
+PyAutoGUI>=0.9.38
+PyMsgBox>=1.0.6
+pypiwin32>=223
+PyScreeze>=0.1.18
+PyTweening>=1.0.3
+pywin32>=223
+win32core>=221.36
