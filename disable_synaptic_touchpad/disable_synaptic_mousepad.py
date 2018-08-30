@@ -6,7 +6,10 @@ import time
 
 
 class WindowManager:
-    """"""
+    """
+    Reference:
+    https://stackoverflow.com/questions/2090464/python-window-activation
+    """
     
     def __init__(self):
         self._handle = None
