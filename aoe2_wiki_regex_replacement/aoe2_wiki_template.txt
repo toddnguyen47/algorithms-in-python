@@ -1,0 +1,2095 @@
+<noinclude>
+
+<code>{{t|AoEII Icons|Name|Image size|line break}}</code>
+
+{{AoEII Icons|Champion}}
+
+== Overview ==
+This template's purpose is to fill in any ''Age of Empires II'' unit, technology, building, or civilization linked and prefixed with their respective icon in paragraphs or lists. The user doesn't have to look up the icon name or if there is a page of the same name in another game of the series.
+It looks like this: {{AoEII Icons|Champion}}.
+
+== How to use it ==
+While the template itself is rather large, it is very simple to use and has only one mandatory input parameter, the name of the unit, technology, building, or civilization.
+
+It knows every unit/technology/building/civilization, as well as the plurals.
+
+Simply call the template and fill in the full name as it appears in the game.
+
+'''Syntax:'''
+
+<code>{{t|AoEII Icons|Name|Image size|linek break}}</code>
+
+The template has 3 parameters: 
+# The name of the unit/technology/building. For accepted inputs see known inputs below
+# The desired image size. Intended for it is a number. Default is 22.
+# String between icon and name. To add a line break type in ''<nowiki><br></nowiki>''. Default is a [[wikipedia:Non-breaking space|non-breaking space]].
+
+Only the first parameter input is mandatory for the template to work, the latter two parameters are intended for use in tables. When unused, the default values are in effect, which is standard for use in lists.
+
+
+=== Examples ===
+#1
+<code><nowiki>{{AoEII Icons|Spearman}}</nowiki></code>
+
+gives
+
+{{AoEII Icons|Spearman}}
+
+#2
+<code><nowiki>{{AoEII Icons|Spearman|45|<br>}}</nowiki></code>
+
+gives
+
+{{AoEII Icons|Spearman|45|<br>}}
+
+#3
+<code><nowiki>{{AoEII Icons|Archers}} are ranged units. They are trained at the {{AoEII Icons|Archery Range}} and are strong against {{AoEII Icons|Long Swordsmen}}.</nowiki></code>
+
+gives
+
+{{AoEII Icons|Archers}} are ranged units. They are trained at the {{AoEII Icons|Archery Range}} and are strong against {{AoEII Icons|Long Swordsmen}}.
+
+
+#4
+
+<code><nowiki> Cavalry armor upgrades are:</nowiki>
+
+<nowiki>*{{AoEII Icons|Scale Barding Armor}}</nowiki>
+
+<nowiki>*{{AoEII Icons|Chain Barding Armor}}</nowiki>
+
+<nowiki>*{{AoEII Icons|Plate Barding Armor}}</nowiki></code>
+
+gives
+
+Cavalry armor upgrades are:
+
+*{{AoEII Icons|Scale Barding Armor}}
+
+*{{AoEII Icons|Chain Barding Armor}}
+
+*{{AoEII Icons|Plate Barding Armor}}
+
+
+The template can also be called by using the redirect 2icons:
+
+<code>{{t|2icons|Name}}</code>
+
+== Known parameter inputs ==
+=== Games ===
+::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Age of Kings|[[File:KingsIcon.png]]{{{3|&#160;}}}''[[Age of Empires II: The Age of Kings|The Age of Kings]]''}}</span><noinclude>
+
+[[File:KingsIcon.png]]{{{3|&#160;}}}''[[Age of Empires II: The Age of Kings|The Age of Kings]]''
+
+::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|The Conquerors|[[File:ConquerorsIcon.png]]{{{3|&#160;}}}''[[Age of Empires II: The Conquerors|The Conquerors]]''}}</span><noinclude>
+
+[[File:ConquerorsIcon.png]]{{{3|&#160;}}}''[[Age of Empires II: The Conquerors|The Conquerors]]''
+
+::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|The Forgotten|[[File:ForgottenIcon.png]]{{{3|&#160;}}}''[[Age of Empires II HD: The Forgotten|The Forgotten]]''}}</span><noinclude>
+
+[[File:ForgottenIcon.png]]{{{3|&#160;}}}''[[Age of Empires II HD: The Forgotten|The Forgotten]]''
+
+::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|The African Kingdoms|[[File:AfricanIcon.png]]{{{3|&#160;}}}''[[Age of Empires II HD: The African Kingdoms|The African Kingdoms]]''}}</span><noinclude>
+
+[[File:AfricanIcon.png]]{{{3|&#160;}}}''[[Age of Empires II HD: The African Kingdoms|The African Kingdoms]]''
+
+::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Rise of the Rajas|[[File:RajaIcon.png]]{{{3|&#160;}}}''[[Age of Empires II HD: Rise of the Rajas|Rise of the Rajas]]''}}</span><noinclude>
+
+[[File:RajaIcon.png]]{{{3|&#160;}}}''[[Age of Empires II HD: Rise of the Rajas|Rise of the Rajas]]''
+
+=== Ages ===
+::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Dark Age|[[File:Dark-age-logo-small.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Dark Age]]}}</span><noinclude>
+
+[[File:Dark-age-logo-small.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Dark Age]]
+
+::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Feudal Age|[[File:Feudal-age-reseach.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Feudal Age]]}}</span><noinclude>
+
+[[File:Feudal-age-reseach.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Feudal Age]]
+
+::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Castle Age|[[File:Castle-age-reseach.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Castle Age]]}}</span><noinclude>
+
+[[File:Castle-age-reseach.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Castle Age]]
+
+::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Imperial Age|[[File:Imperial-age-research.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Age (Age of Empires II)|Imperial Age]]}}</span><noinclude>
+
+[[File:Imperial-age-research.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Age (Age of Empires II)|Imperial Age]]
+
+=== Archery Range ===
+::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Archery Range|[[File:Acheryrangeicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Archery Range (Age of Empires II)|Archery Range]]}}</span><noinclude>
+
+[[File:Acheryrangeicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Archery Range (Age of Empires II)|Archery Range]]
+
+::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Archery Ranges|[[File:Acheryrangeicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Archery Range (Age of Empires II)|Archery Ranges]]}}</span><noinclude>
+
+:[[File:Acheryrangeicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Archery Range (Age of Empires II)|Archery Ranges]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Archer|[[File:ArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Archer (Age of Empires II)|Archer]]}}</span><noinclude>
+
+[[File:ArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Archer (Age of Empires II)|Archer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Archers|[[File:ArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Archer (Age of Empires II)|Archers]]}}</span><noinclude>
+
+:[[File:ArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Archer (Age of Empires II)|Archers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Crossbowman|[[File:CrossbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Crossbowman (Age of Empires II)|Crossbowman]]}}</span><noinclude>
+
+[[File:CrossbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Crossbowman (Age of Empires II)|Crossbowman]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Crossbowmen|[[File:CrossbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Crossbowman (Age of Empires II)|Crossbowmen]]}}</span><noinclude>
+
+:[[File:CrossbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Crossbowman (Age of Empires II)|Crossbowmen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Arbalest|[[File:ArbalestIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Arbalest]]}}</span><noinclude>
+
+[[File:ArbalestIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Arbalest]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Arbalests|[[File:ArbalestIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Arbalest]]s}}</span><noinclude>
+
+:[[File:ArbalestIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Arbalest]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Skirmisher|[[file:SkirmisherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Skirmisher (Age of Empires II)|Skirmisher]]}}</span><noinclude>
+
+[[file:SkirmisherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Skirmisher (Age of Empires II)|Skirmisher]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Skirmishers|[[file:SkirmisherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Skirmisher (Age of Empires II)|Skirmishers]]}}</span><noinclude>
+
+:[[file:SkirmisherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Skirmisher (Age of Empires II)|Skirmishers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Skirmisher|[[file:EliteSkirmisherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Skirmisher]]}}</span><noinclude>
+
+[[file:EliteSkirmisherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Skirmisher]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Skirmishers|[[file:EliteSkirmisherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Skirmisher]]s}}</span><noinclude>
+
+:[[file:EliteSkirmisherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Skirmisher]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Imperial Skirmisher|[[File:Imperialskirmishericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Skirmisher]]}}</span><noinclude>
+
+[[File:Imperialskirmishericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Skirmisher]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Imperial Skirmishers|[[File:Imperialskirmishericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Skirmisher]]s}}</span><noinclude>
+
+:[[File:Imperialskirmishericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Skirmisher]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Cavalry Archer|[[file:CavalryArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cavalry Archer (Age of Empires II)|Cavalry Archer]]}}</span><noinclude>
+
+[[file:CavalryArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cavalry Archer (Age of Empires II)|Cavalry Archer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Cavalry Archers|[[file:CavalryArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cavalry Archer (Age of Empires II)|Cavalry Archers]]}}</span><noinclude>
+
+:[[file:CavalryArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cavalry Archer (Age of Empires II)|Cavalry Archers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Heavy Cavalry Archer|[[file:HeavyCavArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Cavalry Archer]]}}</span><noinclude>
+
+[[file:HeavyCavArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Cavalry Archer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Heavy Cavalry Archers|[[file:HeavyCavArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Cavalry Archer]]s}}</span><noinclude>
+
+:[[file:HeavyCavArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Cavalry Archer]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Hand Cannoneer|[[file:HandCannoneerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hand Cannoneer]]}}</span><noinclude>
+
+[[file:HandCannoneerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hand Cannoneer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Hand Cannoneers|[[file:HandCannoneerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hand Cannoneer]]s}}</span><noinclude>
+
+:[[file:HandCannoneerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hand Cannoneer]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Slinger|[[file:Slingericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Slinger (Age of Empires II)|Slinger]]}}</span><noinclude>
+
+[[file:Slingericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Slinger (Age of Empires II)|Slinger]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Slingers|[[file:Slingericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Slinger (Age of Empires II)|Slingers]]}}</span><noinclude>
+
+:[[file:Slingericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Slinger (Age of Empires II)|Slingers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Genitour|[[file:GenitourIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Genitour (mounted)|Genitour]]}}</span><noinclude>
+
+[[file:GenitourIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Genitour (mounted)|Genitour]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Genitours|[[file:GenitourIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Genitour (mounted)|Genitours]]}}</span><noinclude>
+
+:[[file:GenitourIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Genitour (mounted)|Genitours]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Genitour|[[file:GenitourIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Genitour (mounted)|Elite Genitour]]}}</span><noinclude>
+
+[[file:GenitourIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Genitour (mounted)|Elite Genitour]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Genitours|[[file:GenitourIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Genitour (mounted)|Elite Genitours]]}}</span><noinclude>
+
+:[[file:GenitourIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Genitour (mounted)|Elite Genitours]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Thumb Ring|[[file:Thumb_Ring.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Thumb Ring]]}}</span><noinclude>
+
+[[file:Thumb_Ring.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Thumb Ring]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Parthian Tactics|[[file:Parthian-Tactics.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Parthian Tactics]]}}</span><noinclude>
+
+[[file:Parthian-Tactics.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Parthian Tactics]]
+
+=== Barracks ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Barracks|[[file:Barracks-logo.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Barracks (Age of Empires II)|Barracks]]}}</span><noinclude>
+
+[[file:Barracks-logo.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Barracks (Age of Empires II)|Barracks]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Militia|[[file:MilitiaIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Militia (Age of Empires II)|Militia]]}}</span><noinclude>
+
+[[file:MilitiaIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Militia (Age of Empires II)|Militia]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Man-at-Arms|[[file:ManAtArmsIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Man-at-Arms]]}}</span><noinclude>
+
+[[file:ManAtArmsIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Man-at-Arms]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Men-at-Arms|[[file:ManAtArmsIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Man-at-Arms|Men-at-Arms]]}}</span><noinclude>
+
+:[[file:ManAtArmsIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Man-at-Arms|Men-at-Arms]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Long Swordsman|[[file:LongswordsManIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Long Swordsman (Age of Empires II)|Long Swordsman]]}}</span><noinclude>
+
+[[file:LongswordsManIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Long Swordsman (Age of Empires II)|Long Swordsman]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Long Swordsmen|[[file:LongswordsManIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Long Swordsman (Age of Empires II)|Long Swordsmen]]}}</span><noinclude>
+
+:[[file:LongswordsManIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Long Swordsman (Age of Empires II)|Long Swordsmen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Two-Handed Swordsman|[[file:2HandedswordsmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Two-Handed Swordsman]]}}</span><noinclude>
+
+[[file:2HandedswordsmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Two-Handed Swordsman]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Two-Handed Swordsmen|[[file:2HandedswordsmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Two-Handed Swordsman|Two-Handed Swordsmen]]}}</span><noinclude>
+
+:[[file:2HandedswordsmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Two-Handed Swordsman|Two-Handed Swordsmen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Champion|[[file:ChampionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Champion]]}}</span><noinclude>
+
+[[file:ChampionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Champion]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Champions|[[file:ChampionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Champion]]s}}</span><noinclude>
+
+:[[file:ChampionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Champion]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Spearman|[[file:SpearmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Spearman (Age of Empires II)|Spearman]]}}</span><noinclude>
+
+[[file:SpearmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Spearman (Age of Empires II)|Spearman]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Spearmen|[[file:SpearmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Spearman (Age of Empires II)|Spearmen]]}}</span><noinclude>
+
+:[[file:SpearmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Spearman (Age of Empires II)|Spearmen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Pikeman|[[file:PikemanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Pikeman (Age of Empires II)|Pikeman]]}}</span><noinclude>
+
+[[file:PikemanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Pikeman (Age of Empires II)|Pikeman]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Pikemen|[[file:PikemanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Pikeman (Age of Empires II)|Pikemen]]}}</span><noinclude>
+
+:[[file:PikemanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Pikeman (Age of Empires II)|Pikemen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Halberdier|[[file:HalberdierIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Halberdier (Age of Empires II)|Halberdier]]}}</span><noinclude>
+
+[[file:HalberdierIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Halberdier (Age of Empires II)|Halberdier]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Halberdiers|[[file:HalberdierIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Halberdier (Age of Empires II)|Halberdiers]]}}</span><noinclude>
+
+:[[file:HalberdierIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Halberdier (Age of Empires II)|Halberdiers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Eagle Scout|[[file:EagleScoutIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Eagle Scout]]}}</span><noinclude>
+
+[[file:EagleScoutIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Eagle Scout]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Eagle Scouts|[[file:EagleScoutIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Eagle Scout]]s}}</span><noinclude>
+
+:[[file:EagleScoutIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Eagle Scout]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Eagle Warrior|[[file:EagleWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Eagle Warrior]]}}</span><noinclude>
+
+[[file:EagleWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Eagle Warrior]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Eagle Warriors|[[file:EagleWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Eagle Warrior]]s}}</span><noinclude>
+
+:[[file:EagleWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Eagle Warrior]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Eagle Warrior|[[file:EliteEagleWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Eagle Warrior]]}}</span><noinclude>
+
+[[file:EliteEagleWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Eagle Warrior]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Eagle Warriors|[[file:EliteEagleWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Eagle Warrior]]s}}</span><noinclude>
+
+:[[file:EliteEagleWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Eagle Warrior]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Condottiero|[[File:CondottieroNewIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Condottiero]]}}</span><noinclude>
+
+[[File:CondottieroNewIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Condottiero]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Condottieri|[[File:CondottieroNewIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Condottiero|Condottieri]]}}</span><noinclude>
+
+:[[File:CondottieroNewIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Condottiero|Condottieri]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Tracking|[[File:Tracking.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Tracking]]}}</span><noinclude>
+
+[[File:Tracking.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Tracking]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Squires|[[File:Squires.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Squires]]}}</span><noinclude>
+
+[[File:Squires.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Squires]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Arson|[[File:Arson.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Arson]]}}</span><noinclude>
+
+[[File:Arson.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Arson]]
+
+=== Stable ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Stable|[[File:Stableicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Stable (Age of Empires II)|Stable]]}}</span><noinclude>
+
+[[File:Stableicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Stable (Age of Empires II)|Stable]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Stables|[[File:Stableicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Stable (Age of Empires II)|Stables]]}}</span><noinclude>
+
+:[[File:Stableicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Stable (Age of Empires II)|Stables]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Scout Cavalry|[[File:ScoutCavalryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Scout Cavalry (Age of Empires II)|Scout Cavalry]]}}</span><noinclude>
+
+[[File:ScoutCavalryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Scout Cavalry (Age of Empires II)|Scout Cavalry]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Light Cavalry|[[File:LightCavalryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Light Cavalry (Age of Empires II)|Light Cavalry]]}}</span><noinclude>
+
+[[File:LightCavalryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Light Cavalry (Age of Empires II)|Light Cavalry]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Hussar|[[File:HussarIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hussar (Age of Empires II)|Hussar]]}}</span><noinclude>
+
+[[File:HussarIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hussar (Age of Empires II)|Hussar]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Hussars|[[File:HussarIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hussar (Age of Empires II)|Hussars]]}}</span><noinclude>
+
+:[[File:HussarIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hussar (Age of Empires II)|Hussars]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Knight|[[File:KnightIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Knight]]}}</span><noinclude>
+
+[[File:KnightIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Knight]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Knights|[[File:KnightIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Knight]]s}}</span><noinclude>
+
+:[[File:KnightIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Knight]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Cavalier|[[File:CavalierIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cavalier]]}}</span><noinclude>
+
+[[File:CavalierIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cavalier]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Cavaliers|[[File:CavalierIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cavalier]]s}}</span><noinclude>
+
+:[[File:CavalierIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cavalier]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Paladin|[[File:PaladinIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Paladin]]}}</span><noinclude>
+
+[[File:PaladinIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Paladin]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Paladins|[[File:PaladinIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Paladin]]s}}</span><noinclude>
+
+:[[File:PaladinIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Paladin]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Camel|[[File:CamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel]]}}</span><noinclude>
+
+[[File:CamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Camels|[[File:CamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel]]s}}</span><noinclude>
+
+:[[File:CamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Heavy Camel|[[File:HeavyCamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Camel]]}}</span><noinclude>
+
+[[File:HeavyCamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Camel]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Heavy Camels|[[File:HeavyCamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Camel]]s}}</span><noinclude>
+
+:[[File:HeavyCamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Camel]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Imperial Camel|[[File:ImperialCamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Camel]]}}</span><noinclude>
+
+[[File:ImperialCamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Camel]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Imperial Camels|[[File:ImperialCamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Camel]]s}}</span><noinclude>
+
+:[[File:ImperialCamelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Camel]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Battle Elephant|[[File:Battleelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Battle Elephant]]}}</span><noinclude>
+
+[[File:Battleelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Battle Elephant]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Battle Elephants|[[File:Battleelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Battle Elephant]]s}}</span><noinclude>
+
+:[[File:Battleelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Battle Elephant]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Battle Elephant|[[File:Elitebattleelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Battle Elephant]]}}</span><noinclude>
+
+[[File:Elitebattleelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Battle Elephant]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Battle Elephants|[[File:Elitebattleelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Battle Elephant]]s}}</span><noinclude>
+
+:[[File:Elitebattleelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Battle Elephant]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Bloodlines|[[File:Bloodlines.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Bloodlines]]}}</span><noinclude>
+
+[[File:Bloodlines.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Bloodlines]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Husbandry|[[File:Husbandry.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Husbandry (Age of Empires II)|Husbandry]]}}</span><noinclude>
+
+[[File:Husbandry.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Husbandry (Age of Empires II)|Husbandry]]
+
+=== Siege Workshop ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Siege Workshop|[[File:Siegeworkshopicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Workshop (Age of Empires II)|Siege Workshop]]}}</span><noinclude>
+
+[[File:Siegeworkshopicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Workshop (Age of Empires II)|Siege Workshop]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Siege Workshops|[[File:Siegeworkshopicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Workshop (Age of Empires II)|Siege Workshops]]}}</span><noinclude>
+
+:[[File:Siegeworkshopicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Workshop (Age of Empires II)|Siege Workshops]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Battering Ram|[[File:BatteringRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Battering Ram]]}}</span><noinclude>
+
+[[File:BatteringRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Battering Ram]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Battering Rams|[[File:BatteringRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Battering Ram]]s}}</span><noinclude>
+
+:[[File:BatteringRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Battering Ram]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Capped Ram|[[File:CappedRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Capped Ram]]}}</span><noinclude>
+
+[[File:CappedRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Capped Ram]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Capped Rams|[[File:CappedRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Capped Ram]]s}}</span><noinclude>
+
+:[[File:CappedRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Capped Ram]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Siege Ram|[[File:SiegeRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Ram]]}}</span><noinclude>
+
+[[File:SiegeRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Ram]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Siege Rams|[[File:SiegeRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Ram]]s}}</span><noinclude>
+
+:[[File:SiegeRamIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Ram]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mangonel|[[File:MangonelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Mangonel]]}}</span><noinclude>
+
+[[File:MangonelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Mangonel]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mangonels|[[File:MangonelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Mangonel]]s}}</span><noinclude>
+
+:[[File:MangonelIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Mangonel]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Onager|[[File:OnagerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Onager (Age of Empires II)|Onager]]}}</span><noinclude>
+
+[[File:OnagerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Onager (Age of Empires II)|Onager]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Onagers|[[File:OnagerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Onager (Age of Empires II)|Onagers]]}}</span><noinclude>
+
+:[[File:OnagerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Onager (Age of Empires II)|Onagers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Siege Onager|[[File:SiegeOnagerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Onager]]}}</span><noinclude>
+
+[[File:SiegeOnagerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Onager]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Siege Onagers|[[File:SiegeOnagerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Onager]]s}}</span><noinclude>
+
+:[[File:SiegeOnagerIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Onager]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Scorpion|[[File:ScorpionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Scorpion]]}}</span><noinclude>
+
+[[File:ScorpionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Scorpion]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Scorpions|[[File:ScorpionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Scorpion]]s}}</span><noinclude>
+
+:[[File:ScorpionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Scorpion]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Heavy Scorpion|[[File:HeavyScorpionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Scorpion]]}}</span><noinclude>
+
+[[File:HeavyScorpionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Scorpion]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Heavy Scorpions|[[File:HeavyScorpionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Scorpion]]s}}</span><noinclude>
+
+:[[File:HeavyScorpionIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Scorpion]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Siege Tower|[[File:Siegetowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Tower (Age of Empires II)|Siege Tower]]}}</span><noinclude>
+
+[[File:Siegetowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Tower (Age of Empires II)|Siege Tower]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Siege Towers|[[File:Siegetowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Tower (Age of Empires II)|Siege Towers]]}}</span><noinclude>
+
+:[[File:Siegetowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Tower (Age of Empires II)|Siege Towers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Bombard Cannon|[[File:BombardCannonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bombard Cannon]]}}</span><noinclude>
+
+[[File:BombardCannonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bombard Cannon]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Bombard Cannons|[[File:BombardCannonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bombard Cannon]]s}}</span><noinclude>
+
+:[[File:BombardCannonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bombard Cannon]]s
+
+=== Castle ===
+==== Common ====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Castle|[[File:Castleicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Castle (Age of Empires II)|Castle]]}}</span><noinclude>
+
+[[File:Castleicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Castle (Age of Empires II)|Castle]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Castles|[[File:Castleicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Castle (Age of Empires II)|Castles]]}}</span><noinclude>
+
+:[[File:Castleicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Castle (Age of Empires II)|Castles]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Unique unit|[[File:Elite-unique-research.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Unique unit (Age of Empires II)|Unique unit]]}}</span><noinclude>
+
+[[File:Elite-unique-research.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Unique unit (Age of Empires II)|Unique unit]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Unique units|[[File:Elite-unique-research.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Unique unit (Age of Empires II)|Unique units]]}}</span><noinclude>
+
+:[[File:Elite-unique-research.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Unique unit (Age of Empires II)|Unique units]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Petard|[[File:PetardIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Petard (Age of Empires II)|Petard]]}}</span><noinclude>
+
+[[File:PetardIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Petard (Age of Empires II)|Petard]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Petards|[[File:PetardIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Petard (Age of Empires II)|Petards]]}}</span><noinclude>
+
+:[[File:PetardIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Petard (Age of Empires II)|Petards]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Trebuchet|[[File:TrebuchetPackedIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trebuchet]]}}</span><noinclude>
+
+[[File:TrebuchetPackedIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trebuchet]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Trebuchets|[[File:TrebuchetPackedIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trebuchet]]s}}</span><noinclude>
+
+:[[File:TrebuchetPackedIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trebuchet]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Hoardings|[[File:Hoardings.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hoardings]]}}</span><noinclude>
+
+[[File:Hoardings.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hoardings]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Sappers|[[File:Sappers.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Sappers]]}}</span><noinclude>
+
+[[File:Sappers.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Sappers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Conscription|[[File:Conscription.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Conscription]]}}</span><noinclude>
+
+[[File:Conscription.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Conscription]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Spies|[[File:Spiestreason.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Spies (Age of Empires II)|Spies]]}}</span><noinclude>
+
+[[File:Spiestreason.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Spies (Age of Empires II)|Spies]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Treason|[[File:Spiestreason.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Treason]]}}</span><noinclude>
+
+[[File:Spiestreason.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Treason]]
+
+==== Unique ====
+===== Britons =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Britons|[[File:KingsIcon.png]] [[Britons]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Britons]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Longbowman|[[File:LongbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longbowman (Age of Empires II)|Longbowman]]}}</span><noinclude>
+
+[[File:LongbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longbowman (Age of Empires II)|Longbowman]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Longbowmen|[[File:LongbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longbowman (Age of Empires II)|Longbowmen]]}}</span><noinclude>
+
+:[[File:LongbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longbowman (Age of Empires II)|Longbowmen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Longbowman|[[File:LongbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longbowman (Age of Empires II)|Elite Longbowman]]}}</span><noinclude>
+
+[[File:LongbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longbowman (Age of Empires II)|Elite Longbowman]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Longbowmen|[[File:LongbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longbowman (Age of Empires II)|Elite Longbowmen]]}}</span><noinclude>
+
+:[[File:LongbowmanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longbowman (Age of Empires II)|Elite Longbowmen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Yeomen|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Yeomen]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Yeomen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Warwolf|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Warwolf]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Warwolf]]
+
+===== Byzantines =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Byzantines|[[File:KingsIcon.png]] [[Byzantines]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Byzantines]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Cataphract|[[File:CataphractIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cataphract (Age of Empires II)|Cataphract]]}}</span><noinclude>
+
+[[File:CataphractIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cataphract (Age of Empires II)|Cataphract]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Cataphracts|[[File:CataphractIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cataphract (Age of Empires II)|Cataphracts]]}}</span><noinclude>
+
+:[[File:CataphractIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cataphract (Age of Empires II)|Cataphracts]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Cataphract|[[File:CataphractIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cataphract (Age of Empires II)|Elite Cataphract]]}}</span><noinclude>
+
+[[File:CataphractIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cataphract (Age of Empires II)|Elite Cataphract]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Cataphracts|[[File:CataphractIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cataphract (Age of Empires II)|Elite Cataphracts]]}}</span><noinclude>
+
+:[[File:CataphractIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cataphract (Age of Empires II)|Elite Cataphracts]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Greek Fire|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Greek Fire]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Greek Fire]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Logistica|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Logistica]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Logistica]]
+
+===== Celts =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Celts|[[File:KingsIcon.png]] [[Celts]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Celts]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Woad Raider|[[File:WBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Woad Raider]]}}</span><noinclude>
+
+[[File:WBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Woad Raider]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Woad Raiders|[[File:WBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Woad Raider]]s}}</span><noinclude>
+
+:[[File:WBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Woad Raider]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Woad Raider|[[File:WBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Woad Raider|Elite Woad Raider]]}}</span><noinclude>
+
+[[File:WBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Woad Raider|Elite Woad Raider]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Woad Raiders|[[File:WBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Woad Raider|Elite Woad Raiders]]}}</span><noinclude>
+
+:[[File:WBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Woad Raider|Elite Woad Raiders]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Stronghold|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Stronghold]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Stronghold]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Furor Celtica|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Furor Celtica]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Furor Celtica]]
+
+===== Chinese =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Chinese|[[File:KingsIcon.png]] [[Chinese (Age of Empires II)|Chinese]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Chinese (Age of Empires II)|Chinese]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Chu Ko Nu|[[File:ChuKoNuIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Chu Ko Nu (Age of Empires II)|Chu Ko Nu]]}}</span><noinclude>
+
+[[File:ChuKoNuIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Chu Ko Nu (Age of Empires II)|Chu Ko Nu]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Chu Ko Nu|[[File:ChuKoNuIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Chu Ko Nu (Age of Empires II)|Elite Chu Ko Nu]]}}</span><noinclude>
+
+[[File:ChuKoNuIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Chu Ko Nu (Age of Empires II)|Elite Chu Ko Nu]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Great Wall|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Great Wall (Age of Empires II)|Great Wall]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Great Wall (Age of Empires II)|Great Wall]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Rocketry|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Rocketry]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Rocketry]]
+
+===== Franks =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Franks|[[File:KingsIcon.png]] [[Franks]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Franks]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Throwing Axeman|[[File:TAXEM.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Throwing Axeman (Age of Empires II)|Throwing Axeman]]}}</span><noinclude>
+
+[[File:TAXEM.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Throwing Axeman (Age of Empires II)|Throwing Axeman]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Throwing Axemen|[[File:TAXEM.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Throwing Axeman (Age of Empires II)|Throwing Axemen]]}}</span><noinclude>
+
+:[[File:TAXEM.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Throwing Axeman (Age of Empires II)|Throwing Axemen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Throwing Axeman|[[File:TAXEM.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Throwing Axeman (Age of Empires II)|Elite Throwing Axeman]]}}</span><noinclude>
+
+[[File:TAXEM.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Throwing Axeman (Age of Empires II)|Elite Throwing Axeman]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Throwing Axemen|[[File:TAXEM.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Throwing Axeman (Age of Empires II)|Elite Throwing Axemen]]}}</span><noinclude>
+
+:[[File:TAXEM.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Throwing Axeman (Age of Empires II)|Elite Throwing Axemen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Chivalry|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Chivalry]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Chivalry]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Bearded Axe|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bearded Axe]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bearded Axe]]
+
+===== Goths =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Goths|[[File:KingsIcon.png]] [[Goths]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Goths]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Huskarl|[[File:HuskarlIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Huskarl (Age of Empires II)|Huskarl]]}}</span><noinclude>
+
+[[File:HuskarlIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Huskarl (Age of Empires II)|Huskarl]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Huskarls|[[File:HuskarlIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Huskarl (Age of Empires II)|Huskarls]]}}</span><noinclude>
+
+:[[File:HuskarlIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Huskarl (Age of Empires II)|Huskarls]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Huskarl|[[File:HuskarlIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Huskarl (Age of Empires II)|Elite Huskarl]]}}</span><noinclude>
+
+[[File:HuskarlIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Huskarl (Age of Empires II)|Elite Huskarl]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Huskarls|[[File:HuskarlIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Huskarl (Age of Empires II)|Elite Huskarls]]}}</span><noinclude>
+
+:[[File:HuskarlIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Huskarl (Age of Empires II)|Elite Huskarls]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Anarchy|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Anarchy]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Anarchy]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Perfusion|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Perfusion]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Perfusion]]
+
+===== Japanese =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Japanese|[[File:KingsIcon.png]] [[Japanese (Age of Empires II)|Japanese]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Japanese (Age of Empires II)|Japanese]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Samurai|[[File:SMURI.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Samurai (Age of Empires II)|Samurai]]}}</span><noinclude>
+
+[[File:SMURI.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Samurai (Age of Empires II)|Samurai]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Samurai|[[File:SMURI.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Samurai (Age of Empires II)|Elite Samurai]]}}</span><noinclude>
+
+[[File:SMURI.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Samurai (Age of Empires II)|Elite Samurai]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Yasama|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Yasama]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Yasama]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Kataparuto|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Kataparuto]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Kataparuto]]
+
+===== Mongols =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mongols|[[File:KingsIcon.png]] [[Mongols]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Mongols]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mangudai|[[File:MangudaiIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Mangudai]]}}</span><noinclude>
+
+[[File:MangudaiIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Mangudai]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Mangudai|[[File:MangudaiIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Mangudai|Elite Mangudai]]}}</span><noinclude>
+
+[[File:MangudaiIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Mangudai|Elite Mangudai]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Nomads|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Nomads]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Nomads]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Drill|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Drill]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Drill]]
+
+===== Persians =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Persians|[[File:KingsIcon.png]] [[Persians (Age of Empires II)|Persians]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Persians (Age of Empires II)|Persians]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|War Elephant|[[File:WarElephantIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Elephant (Age of Empires II)|War Elephant]]}}</span><noinclude>
+
+[[File:WarElephantIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Elephant (Age of Empires II)|War Elephant]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|War Elephants|[[File:WarElephantIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Elephant (Age of Empires II)|War Elephants]]}}</span><noinclude>
+
+:[[File:WarElephantIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Elephant (Age of Empires II)|War Elephants]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite War Elephant|[[File:WarElephantIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Elephant (Age of Empires II)|Elite War Elephant]]}}</span><noinclude>
+
+[[File:WarElephantIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Elephant (Age of Empires II)|Elite War Elephant]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite War Elephants|[[File:WarElephantIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Elephant (Age of Empires II)|Elite War Elephants]]}}</span><noinclude>
+
+:[[File:WarElephantIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Elephant (Age of Empires II)|Elite War Elephants]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Boiling Oil|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Boiling Oil (Age of Empires II)|Boiling Oil]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Boiling Oil (Age of Empires II)|Boiling Oil]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mahouts|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Mahouts]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Mahouts]]
+
+===== Saracens =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Saracens|[[File:KingsIcon.png]] [[Saracens]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Saracens]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mameluke|[[File:Saracenmamluk_icon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mameluke (Age of Empires II)|Mameluke]]}}</span><noinclude>
+
+[[File:Saracenmamluk_icon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mameluke (Age of Empires II)|Mameluke]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mamalik|[[File:Saracenmamluk_icon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mameluke (Age of Empires II)|Mamalik]]}}</span><noinclude>
+
+:[[File:Saracenmamluk_icon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mameluke (Age of Empires II)|Mamalik]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Mameluke|[[File:Saracenmamluk_icon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mameluke (Age of Empires II)|Elite Mameluke]]}}</span><noinclude>
+
+[[File:Saracenmamluk_icon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mameluke (Age of Empires II)|Elite Mameluke]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Mamalik|[[File:Saracenmamluk_icon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mameluke (Age of Empires II)|Elite Mamalik]]}}</span><noinclude>
+
+:[[File:Saracenmamluk_icon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mameluke (Age of Empires II)|Elite Mamalik]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Madrasah|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Madrasah]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Madrasah]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Zealotry|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Zealotry (Age of Empires II)|Zealotry]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Zealotry (Age of Empires II)|Zealotry]]
+
+===== Teutons =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Teutons|[[File:KingsIcon.png]] [[Teutons]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Teutons]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Teutonic Knight|[[File:Crusade_avatar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Teutonic Knight]]}}</span><noinclude>
+
+[[File:Crusade_avatar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Teutonic Knight]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Teutonic Knights|[[File:Crusade_avatar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Teutonic Knight]]s}}</span><noinclude>
+
+:[[File:Crusade_avatar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Teutonic Knight]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Teutonic Knight|[[File:Crusade_avatar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Teutonic Knight|Elite Teutonic Knight]]}}</span><noinclude>
+
+[[File:Crusade_avatar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Teutonic Knight|Elite Teutonic Knight]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Teutonic Knights|[[File:Crusade_avatar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Teutonic Knight|Elite Teutonic Knights]]}}</span><noinclude>
+
+:[[File:Crusade_avatar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Teutonic Knight|Elite Teutonic Knights]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Ironclad|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Ironclad (Age of Empires II)|Ironclad]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Ironclad (Age of Empires II)|Ironclad]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Crenellations|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Crenellations (Age of Empires II)|Crenellations]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Crenellations (Age of Empires II)|Crenellations]]
+
+===== Turks =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Turks|[[File:KingsIcon.png]] [[Turks]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Turks]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Janissary|[[File:JanissaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Janissary (Age of Empires II)|Janissary]]}}</span><noinclude>
+
+[[File:JanissaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Janissary (Age of Empires II)|Janissary]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Janissaries|[[File:JanissaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Janissary (Age of Empires II)|Janissaries]]}}</span><noinclude>
+
+:[[File:JanissaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Janissary (Age of Empires II)|Janissaries]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Janissary|[[File:JanissaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Janissary (Age of Empires II)|Elite Janissary]]}}</span><noinclude>
+
+[[File:JanissaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Janissary (Age of Empires II)|Elite Janissary]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Janissaries|[[File:JanissaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Janissary (Age of Empires II)|Elite Janissaries]]}}</span><noinclude>
+
+:[[File:JanissaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Janissary (Age of Empires II)|Elite Janissaries]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Sipahi|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Sipahi]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Sipahi]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Artillery|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Artillery (Age of Empires II)|Artillery]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Artillery (Age of Empires II)|Artillery]]
+
+===== Vikings =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Vikings|[[File:KingsIcon.png]] [[Vikings]]}}</span><noinclude>
+
+[[File:KingsIcon.png]] [[Vikings]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Berserk|[[File:VBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Berserk]]}}</span><noinclude>
+
+[[File:VBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Berserk]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Berserks|[[File:VBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Berserk]]s}}</span><noinclude>
+
+:[[File:VBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Berserk]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Berserk|[[File:VBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Berserk|Elite Berserk]]}}</span><noinclude>
+
+[[File:VBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Berserk|Elite Berserk]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Berserks|[[File:VBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Berserk|Elite Berserks]]}}</span><noinclude>
+
+:[[File:VBRSK.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Berserk|Elite Berserks]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Chieftains|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Chieftains]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Chieftains]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Berserkergang|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Berserkergang (Age of Empires II)|Berserkergang]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Berserkergang (Age of Empires II)|Berserkergang]]
+
+===== Aztecs =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Aztecs|[[File:ConquerorsIcon.png]] [[Aztecs (Age of Empires II)|Aztecs]]}}</span><noinclude>
+
+[[File:ConquerorsIcon.png]] [[Aztecs (Age of Empires II)|Aztecs]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Jaguar Warrior|[[File:JaguarWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Jaguar Warrior]]}}</span><noinclude>
+
+[[File:JaguarWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Jaguar Warrior]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Jaguar Warriors|[[File:JaguarWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Jaguar Warrior]]s}}</span><noinclude>
+
+:[[File:JaguarWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Jaguar Warrior]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Jaguar Warrior|[[File:JaguarWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Jaguar Warrior|Elite Jaguar Warrior]]}}</span><noinclude>
+
+[[File:JaguarWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Jaguar Warrior|Elite Jaguar Warrior]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Jaguar Warriors|[[File:JaguarWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Jaguar Warrior|Elite Jaguar Warriors]]}}</span><noinclude>
+
+:[[File:JaguarWarriorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Jaguar Warrior|Elite Jaguar Warriors]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Atlatl|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Atlatl]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Atlatl]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Garland Wars|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Garland Wars]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Garland Wars]]
+
+===== Huns =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Huns|[[File:ConquerorsIcon.png]] [[Huns]]}}</span><noinclude>
+
+[[File:ConquerorsIcon.png]] [[Huns]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Tarkan|[[File:TarkanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Tarkan]]}}</span><noinclude>
+
+[[File:TarkanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Tarkan]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Tarkans|[[File:TarkanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Tarkan]]s}}</span><noinclude>
+
+:[[File:TarkanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Tarkan]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Tarkan|[[File:TarkanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Tarkan|Elite Tarkan]]}}</span><noinclude>
+
+[[File:TarkanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Tarkan|Elite Tarkan]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Tarkans|[[File:TarkanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Tarkan|Elite Tarkans]]}}</span><noinclude>
+
+:[[File:TarkanIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Tarkan|Elite Tarkans]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Marauders|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Marauders]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Marauders]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Atheism|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Atheism]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Atheism]]
+
+===== Koreans =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Koreans|[[File:ConquerorsIcon.png]] [[Koreans]]}}</span><noinclude>
+
+[[File:ConquerorsIcon.png]] [[Koreans]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|War Wagon|[[File:WarWagonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Wagon (Age of Empires II)|War Wagon]]}}</span><noinclude>
+
+[[File:WarWagonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Wagon (Age of Empires II)|War Wagon]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|War Wagons|[[File:WarWagonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Wagon (Age of Empires II)|War Wagons]]}}</span><noinclude>
+
+:[[File:WarWagonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Wagon (Age of Empires II)|War Wagons]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite War Wagon|[[File:WarWagonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Wagon (Age of Empires II)|Elite War Wagon]]}}</span><noinclude>
+
+[[File:WarWagonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Wagon (Age of Empires II)|Elite War Wagon]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite War Wagons|[[File:WarWagonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Wagon (Age of Empires II)|Elite War Wagons]]}}</span><noinclude>
+
+:[[File:WarWagonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Wagon (Age of Empires II)|Elite War Wagons]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Panokseon|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Panokseon]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Panokseon]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Shinkichon|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Shinkichon]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Shinkichon]]
+
+===== Mayans =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mayans|[[File:ConquerorsIcon.png]] [[Mayans]]}}</span><noinclude>
+
+[[File:ConquerorsIcon.png]] [[Mayans]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Plumed Archer|[[File:PlumedArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plumed Archer]]}}</span><noinclude>
+
+[[File:PlumedArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plumed Archer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Plumed Archers|[[File:PlumedArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plumed Archer]]s}}</span><noinclude>
+
+:[[File:PlumedArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plumed Archer]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Plumed Archer|[[File:PlumedArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plumed Archer|Elite Plumed Archer]]}}</span><noinclude>
+
+[[File:PlumedArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plumed Archer|Elite Plumed Archer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Plumed Archers|[[File:PlumedArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plumed Archer|Elite Plumed Archers]]}}</span><noinclude>
+
+:[[File:PlumedArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plumed Archer|Elite Plumed Archers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Obsidian Arrows|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Obsidian Arrows]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Obsidian Arrows]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|El Dorado|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[El Dorado (technology)|El Dorado]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[El Dorado (technology)|El Dorado]]
+
+===== Spanish =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Spanish|[[File:ConquerorsIcon.png]] [[Spanish (Age of Empires II)|Spanish]]}}</span><noinclude>
+
+[[File:ConquerorsIcon.png]] [[Spanish (Age of Empires II)|Spanish]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Conquistador|[[File:ConquistadorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Conquistador (Age of Empires II)|Conquistador]]}}</span><noinclude>
+
+[[File:ConquistadorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Conquistador (Age of Empires II)|Conquistador]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Conquistadors|[[File:ConquistadorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Conquistador (Age of Empires II)|Conquistadors]]}}</span><noinclude>
+
+:[[File:ConquistadorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Conquistador (Age of Empires II)|Conquistadors]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Conquistador|[[File:ConquistadorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Conquistador (Age of Empires II)|Elite Conquistador]]}}</span><noinclude>
+
+[[File:ConquistadorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Conquistador (Age of Empires II)|Elite Conquistador]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Conquistadors|[[File:ConquistadorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Conquistador (Age of Empires II)|Elite Conquistadors]]}}</span><noinclude>
+
+:[[File:ConquistadorIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Conquistador (Age of Empires II)|Elite Conquistadors]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Inquisition|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Inquisition]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Inquisition]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Supremacy|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Supremacy]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Supremacy]]
+
+===== Incas =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Incas|[[File:ForgottenIcon.png]] [[Incas (Age of Empires II)|Incas]]}}</span><noinclude>
+
+[[File:ForgottenIcon.png]] [[Incas (Age of Empires II)|Incas]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Kamayuk|[[File:Kamayuk_Icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Kamayuk]]}}</span><noinclude>
+
+[[File:Kamayuk_Icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Kamayuk]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Kamayuks|[[File:Kamayuk_Icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Kamayuk]]s}}</span><noinclude>
+
+:[[File:Kamayuk_Icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Kamayuk]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Kamayuk|[[File:Kamayuk_Icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Kamayuk|Elite Kamayuk]]}}</span><noinclude>
+
+[[File:Kamayuk_Icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Kamayuk|Elite Kamayuk]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Kamayuks|[[File:Kamayuk_Icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Kamayuk|Elite Kamayuks]]}}</span><noinclude>
+
+:[[File:Kamayuk_Icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Kamayuk|Elite Kamayuks]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Andean Sling|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Andean Sling]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Andean Sling]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Couriers|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Couriers]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Couriers]]
+
+===== Indians =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Indians|[[File:ForgottenIcon.png]] [[Indians (Age of Empires II)|Indians]]}}</span><noinclude>
+
+[[File:ForgottenIcon.png]] [[Indians (Age of Empires II)|Indians]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elephant Archer|[[File:ElephantArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elephant Archer (Age of Empires II)|Elephant Archer]]}}</span><noinclude>
+
+[[File:ElephantArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elephant Archer (Age of Empires II)|Elephant Archer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elephant Archers|[[File:ElephantArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elephant Archer (Age of Empires II)|Elephant Archers]]}}</span><noinclude>
+
+:[[File:ElephantArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elephant Archer (Age of Empires II)|Elephant Archers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Elephant Archer|[[File:ElephantArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elephant Archer (Age of Empires II)|Elite Elephant Archer]]}}</span><noinclude>
+
+[[File:ElephantArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elephant Archer (Age of Empires II)|Elite Elephant Archer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Elephant Archers|[[File:ElephantArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elephant Archer (Age of Empires II)|Elite Elephant Archers]]}}</span><noinclude>
+
+:[[File:ElephantArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elephant Archer (Age of Empires II)|Elite Elephant Archers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Sultans|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Sultans]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Sultans]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Shatagni|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Shatagni]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Shatagni]]
+
+===== Italians =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Italians|[[File:ForgottenIcon.png]] [[Italians]]}}</span><noinclude>
+
+[[File:ForgottenIcon.png]] [[Italians]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Genoese Crossbowman|[[File:New_Genoese_Crossbowman.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Genoese Crossbowman]]}}</span><noinclude>
+
+[[File:New_Genoese_Crossbowman.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Genoese Crossbowman]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Genoese Crossbowmen|[[File:New_Genoese_Crossbowman.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Genoese Crossbowman|Genoese Crossbowmen]]}}</span><noinclude>
+
+:[[File:New_Genoese_Crossbowman.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Genoese Crossbowman|Genoese Crossbowmen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Genoese Crossbowman|[[File:New_Genoese_Crossbowman.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Genoese Crossbowman|Elite Genoese Crossbowman]]}}</span><noinclude>
+
+[[File:New_Genoese_Crossbowman.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Genoese Crossbowman|Elite Genoese Crossbowman]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Genoese Crossbowmen|[[File:New_Genoese_Crossbowman.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Genoese Crossbowman|Elite Genoese Crossbowmen]]}}</span><noinclude>
+
+:[[File:New_Genoese_Crossbowman.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Genoese Crossbowman|Elite Genoese Crossbowmen]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Pavise|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Pavise]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Pavise]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Silk Road|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Silk Road (Age of Empires II)|Silk Road]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Silk Road (Age of Empires II)|Silk Road]]
+
+===== Magyars =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Magyars|[[File:ForgottenIcon.png]] [[Magyars]]}}</span><noinclude>
+
+[[File:ForgottenIcon.png]] [[Magyars]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Magyar Huszar|[[File:Magyar_Huszar_icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Magyar Huszar]]}}</span><noinclude>
+
+[[File:Magyar_Huszar_icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Magyar Huszar]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Magyar Huszars|[[File:Magyar_Huszar_icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Magyar Huszar]]s}}</span><noinclude>
+
+:[[File:Magyar_Huszar_icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Magyar Huszar]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Magyar Huszar|[[File:Magyar_Huszar_icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Magyar Huszar|Elite Magyar Huszar]]}}</span><noinclude>
+
+[[File:Magyar_Huszar_icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Magyar Huszar|Elite Magyar Huszar]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Magyar Huszars|[[File:Magyar_Huszar_icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Magyar Huszar|Elite Magyar Huszars]]}}</span><noinclude>
+
+:[[File:Magyar_Huszar_icon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Magyar Huszar|Elite Magyar Huszars]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mercenaries|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mercenaries (Age of Empires II)|Mercenaries]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mercenaries (Age of Empires II)|Mercenaries]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Recurve Bow|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Recurve Bow]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Recurve Bow]]
+
+===== Slavs =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Slavs|[[File:ForgottenIcon.png]] [[Slavs]]}}</span><noinclude>
+
+[[File:ForgottenIcon.png]] [[Slavs]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Boyar|[[File:New_Boyar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Boyar]]}}</span><noinclude>
+
+[[File:New_Boyar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Boyar]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Boyars|[[File:New_Boyar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Boyar]]s}}</span><noinclude>
+
+:[[File:New_Boyar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Boyar]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Boyar|[[File:New_Boyar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Boyar|Elite Boyar]]}}</span><noinclude>
+
+[[File:New_Boyar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Boyar|Elite Boyar]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Boyars|[[File:New_Boyar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Boyar|Elite Boyars]]}}</span><noinclude>
+
+:[[File:New_Boyar.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Boyar|Elite Boyars]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Orthodoxy|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Orthodoxy]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Orthodoxy]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Druzhina|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Druzhina]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Druzhina]]
+
+===== Berbers =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Berbers|[[File:AfricanIcon.png]] [[Berbers]]}}</span><noinclude>
+
+[[File:AfricanIcon.png]] [[Berbers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Camel Archer|[[File:CamelArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel Archer]]}}</span><noinclude>
+
+[[File:CamelArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel Archer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Camel Archers|[[File:CamelArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel Archer]]s}}</span><noinclude>
+
+:[[File:CamelArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel Archer]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Camel Archer|[[File:CamelArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel Archer|Elite Camel Archer]]}}</span><noinclude>
+
+[[File:CamelArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel Archer|Elite Camel Archer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Camel Archers|[[File:CamelArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel Archer|Elite Camel Archers]]}}</span><noinclude>
+
+:[[File:CamelArcherIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Camel Archer|Elite Camel Archers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Kasbah|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Kasbah]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Kasbah]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Maghrabi Camels|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Maghrabi Camels]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Maghrabi Camels]]
+
+===== Ethiopians =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Ethiopians|[[File:AfricanIcon.png]] [[Ethiopians]]}}</span><noinclude>
+
+[[File:AfricanIcon.png]] [[Ethiopians]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Shotel Warrior|[[File:ShotelIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Shotel Warrior]]}}</span><noinclude>
+
+[[File:ShotelIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Shotel Warrior]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Shotel Warriors|[[File:ShotelIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Shotel Warrior]]s}}</span><noinclude>
+
+:[[File:ShotelIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Shotel Warrior]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Shotel Warrior|[[File:ShotelIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Shotel Warrior|Elite Shotel Warrior]]}}</span><noinclude>
+
+[[File:ShotelIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Shotel Warrior|Elite Shotel Warrior]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Shotel Warriors|[[File:ShotelIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Shotel Warrior|Elite Shotel Warriors]]}}</span><noinclude>
+
+:[[File:ShotelIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Shotel Warrior|Elite Shotel Warriors]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Royal Heirs|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Royal Heirs]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Royal Heirs]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Torsion Engines|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Torsion Engines]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Torsion Engines]]
+
+===== Malians =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Malians|[[File:AfricanIcon.png]] [[Malians]]}}</span><noinclude>
+
+[[File:AfricanIcon.png]] [[Malians]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Gbeto|[[File:GbetoIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gbeto]]}}</span><noinclude>
+
+[[File:GbetoIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gbeto]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Gbetos|[[File:GbetoIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gbeto]]s}}</span><noinclude>
+
+:[[File:GbetoIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gbeto]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Gbeto|[[File:GbetoIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gbeto|Elite Gbeto]]}}</span><noinclude>
+
+[[File:GbetoIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gbeto|Elite Gbeto]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Gbetos|[[File:GbetoIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gbeto|Elite Gbetos]]}}</span><noinclude>
+
+:[[File:GbetoIcon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gbeto|Elite Gbetos]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Tigui|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Tigui]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Tigui]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Farimba|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Farimba]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Farimba]]
+
+===== Portuguese =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Portuguese|[[File:AfricanIcon.png]] [[Portuguese (Age of Empires II)|Portuguese]]}}</span><noinclude>
+
+[[File:AfricanIcon.png]] [[Portuguese (Age of Empires II)|Portuguese]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Organ Gun|[[File:OrganGunIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Organ Gun (Age of Empires II)|Organ Gun]]}}</span><noinclude>
+
+[[File:OrganGunIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Organ Gun (Age of Empires II)|Organ Gun]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Organ Guns|[[File:OrganGunIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Organ Gun (Age of Empires II)|Organ Guns]]}}</span><noinclude>
+
+:[[File:OrganGunIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Organ Gun (Age of Empires II)|Organ Guns]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Organ Gun|[[File:OrganGunIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Organ Gun (Age of Empires II)|Elite Organ Gun]]}}</span><noinclude>
+
+[[File:OrganGunIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Organ Gun (Age of Empires II)|Elite Organ Gun]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Organ Guns|[[File:OrganGunIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Organ Gun (Age of Empires II)|Elite Organ Guns]]}}</span><noinclude>
+
+:[[File:OrganGunIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Organ Gun (Age of Empires II)|Elite Organ Guns]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Carrack|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Carrack]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Carrack]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Arquebus|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Arquebus]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Arquebus]]
+
+===== Burmese =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Burmese|[[file:RajaIcon.png]] [[Burmese]]}}</span><noinclude>
+
+[[file:RajaIcon.png]] [[Burmese]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Arambai|[[file:Arambaiicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Arambai]]}}</span><noinclude>
+
+[[file:Arambaiicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Arambai]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Arambai|[[file:Arambaiicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Arambai|Elite Arambai]]}}</span><noinclude>
+
+[[file:Arambaiicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Arambai|Elite Arambai]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Howdah|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Howdah (Age of Empires II)|Howdah]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Howdah (Age of Empires II)|Howdah]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Manipur Cavalry|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Manipur Cavalry]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Manipur Cavalry]]
+
+===== Khmer =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Khmer|[[file:RajaIcon.png]] [[Khmer]]}}</span><noinclude>
+
+[[file:RajaIcon.png]] [[Khmer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Ballista Elephant|[[file:Ballistaelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Ballista Elephant]]}}</span><noinclude>
+
+[[file:Ballistaelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Ballista Elephant]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Ballista Elephants|[[file:Ballistaelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Ballista Elephant]]s}}</span><noinclude>
+
+:[[file:Ballistaelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Ballista Elephant]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Ballista Elephant|[[file:Ballistaelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Ballista Elephant|Elite Ballista Elephant]]}}</span><noinclude>
+
+[[file:Ballistaelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Ballista Elephant|Elite Ballista Elephant]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Ballista Elephants|[[file:Ballistaelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Ballista Elephant|Elite Ballista Elephants]]}}</span><noinclude>
+
+:[[file:Ballistaelephanticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Ballista Elephant|Elite Ballista Elephants]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Tusk Swords|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Tusk Swords]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Tusk Swords]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Double Crossbow|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Double Crossbow]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Double Crossbow]]
+
+===== Malay =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Malay|[[file:RajaIcon.png]] [[Malay]]}}</span><noinclude>
+
+[[file:RajaIcon.png]] [[Malay]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Karambit Warrior|[[file:Karambitwarrioricon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Karambit Warrior]]}}</span><noinclude>
+
+[[file:Karambitwarrioricon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Karambit Warrior]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Karambit Warriors|[[file:Karambitwarrioricon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Karambit Warrior]]s}}</span><noinclude>
+
+:[[file:Karambitwarrioricon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Karambit Warrior]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Karambit Warrior|[[file:Karambitwarrioricon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Karambit Warrior|Elite Karambit Warrior]]}}</span><noinclude>
+
+[[file:Karambitwarrioricon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Karambit Warrior|Elite Karambit Warrior]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Karambit Warriors|[[file:Karambitwarrioricon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Karambit Warrior|Elite Karambit Warriors]]}}</span><noinclude>
+
+:[[file:Karambitwarrioricon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Karambit Warrior|Elite Karambit Warriors]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Thalassocracy|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Thalassocracy]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Thalassocracy]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Forced Levy|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Forced Levy]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Forced Levy]]
+
+===== Vietnamese =====
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Vietnamese|[[file:RajaIcon.png]] [[Vietnamese]]}}</span><noinclude>
+
+[[file:RajaIcon.png]] [[Vietnamese]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Rattan Archer|[[file:Rattanarchericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Rattan Archer]]}}</span><noinclude>
+
+[[file:Rattanarchericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Rattan Archer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Rattan Archers|[[file:Rattanarchericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Rattan Archer]]s}}</span><noinclude>
+
+:[[file:Rattanarchericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Rattan Archer]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Rattan Archer|[[file:Rattanarchericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Rattan Archer|Elite Rattan Archer]]}}</span><noinclude>
+
+[[file:Rattanarchericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Rattan Archer|Elite Rattan Archer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Rattan Archers|[[file:Rattanarchericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Rattan Archer|Elite Rattan Archers]]}}</span><noinclude>
+
+:[[file:Rattanarchericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Rattan Archer|Elite Rattan Archers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Chatras|[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Chatras]]}}</span><noinclude>
+
+[[File:CastleAgeUnique.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Chatras]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Paper Money|[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Paper Money]]}}</span><noinclude>
+
+[[File:Unique-tech.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Paper Money]]
+
+=== Dock ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Dock|[[File:Dockicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Dock (Age of Empires II)|Dock]]}}</span><noinclude>
+
+[[File:Dockicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Dock (Age of Empires II)|Dock]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Docks|[[File:Dockicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Dock (Age of Empires II)|Docks]]}}</span><noinclude>
+
+:[[File:Dockicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Dock (Age of Empires II)|Docks]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Harbor|[[File:Dockicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Harbor]]}}</span><noinclude>
+
+[[File:Dockicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Harbor]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Harbors|[[File:Dockicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Harbor]]s}}</span><noinclude>
+
+:[[File:Dockicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Harbor]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fish Trap|[[File:Fishtrapicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Fish Trap]]}}</span><noinclude>
+
+[[File:Fishtrapicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Fish Trap]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fish Traps|[[File:Fishtrapicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Fish Trap]]s}}</span><noinclude>
+
+:[[File:Fishtrapicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Fish Trap]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fishing Ship|[[File:FishingShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fishing Ship (Age of Empires II)|Fishing Ship]]}}</span><noinclude>
+
+[[File:FishingShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fishing Ship (Age of Empires II)|Fishing Ship]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fishing Ships|[[File:FishingShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fishing Ship (Age of Empires II)|Fishing Ships]]}}</span><noinclude>
+
+:[[File:FishingShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fishing Ship (Age of Empires II)|Fishing Ships]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Transport Ship|[[File:TransportShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Transport Ship (Age of Empires II)|Transport Ship]]}}</span><noinclude>
+
+[[File:TransportShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Transport Ship (Age of Empires II)|Transport Ship]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Transport Ships|[[File:TransportShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Transport Ship (Age of Empires II)|Transport Ships]]}}</span><noinclude>
+
+:[[File:TransportShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Transport Ship (Age of Empires II)|Transport Ships]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Trade Cog|[[File:TradeCogIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trade Cog]]}}</span><noinclude>
+
+[[File:TradeCogIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trade Cog]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Trade Cogs|[[File:TradeCogIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trade Cog]]s}}</span><noinclude>
+
+:[[File:TradeCogIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trade Cog]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Galley|[[File:Galley.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Galley (Age of Empires II)|Galley]]}}</span><noinclude>
+
+[[File:Galley.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Galley (Age of Empires II)|Galley]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Galleys|[[File:Galley.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Galley (Age of Empires II)|Galleys]]}}</span><noinclude>
+
+:[[File:Galley.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Galley (Age of Empires II)|Galleys]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|War Galley|[[File:WarGalley.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Galley (Age of Empires II)|War Galley]]}}</span><noinclude>
+
+[[File:WarGalley.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Galley (Age of Empires II)|War Galley]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|War Galleys|[[File:WarGalley.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Galley (Age of Empires II)|War Galleys]]}}</span><noinclude>
+
+:[[File:WarGalley.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[War Galley (Age of Empires II)|War Galleys]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Galleon|[[File:GalleonAoE2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Galleon (Age of Empires II)|Galleon]]}}</span><noinclude>
+
+[[File:GalleonAoE2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Galleon (Age of Empires II)|Galleon]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Galleons|[[File:GalleonAoE2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Galleon (Age of Empires II)|Galleons]]}}</span><noinclude>
+
+:[[File:GalleonAoE2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Galleon (Age of Empires II)|Galleons]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Demolition Raft|[[File:DemoRaftIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Demolition Raft]]}}</span><noinclude>
+
+[[File:DemoRaftIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Demolition Raft]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Demolition Rafts|[[File:DemoRaftIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Demolition Raft]]s}}</span><noinclude>
+
+:[[File:DemoRaftIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Demolition Raft]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Demolition Ship|[[File:DemoShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Demolition Ship]]}}</span><noinclude>
+
+[[File:DemoShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Demolition Ship]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Demolition Ships|[[File:DemoShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Demolition Ship]]s}}</span><noinclude>
+
+:[[File:DemoShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Demolition Ship]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Heavy Demolition Ship|[[File:HeavyDemoShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Demolition Ship]]}}</span><noinclude>
+
+[[File:HeavyDemoShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Demolition Ship]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Heavy Demolition Ships|[[File:HeavyDemoShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Demolition Ship]]s}}</span><noinclude>
+
+:[[File:HeavyDemoShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Demolition Ship]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fire Galley|[[File:FireGalleyIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fire Galley (Age of Empires II)|Fire Galley]]}}</span><noinclude>
+
+[[File:FireGalleyIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fire Galley (Age of Empires II)|Fire Galley]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fire Galleys|[[File:FireGalleyIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fire Galley (Age of Empires II)|Fire Galleys]]}}</span><noinclude>
+
+:[[File:FireGalleyIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fire Galley (Age of Empires II)|Fire Galleys]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fire Ship|[[File:FireShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fire Ship (Age of Empires II)|Fire Ship]]}}</span><noinclude>
+
+[[File:FireShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fire Ship (Age of Empires II)|Fire Ship]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fire Ships|[[File:FireShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fire Ship (Age of Empires II)|Fire Ships]]}}</span><noinclude>
+
+:[[File:FireShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fire Ship (Age of Empires II)|Fire Ships]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fast Fire Ship|[[File:FastFireShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fast Fire Ship]]}}</span><noinclude>
+
+[[File:FastFireShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fast Fire Ship]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fast Fire Ships|[[File:FastFireShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fast Fire Ship]]s}}</span><noinclude>
+
+:[[File:FastFireShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fast Fire Ship]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Cannon Galleon|[[File:CannonGalleonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cannon Galleon]]}}</span><noinclude>
+
+[[File:CannonGalleonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cannon Galleon]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Cannon Galleons|[[File:CannonGalleonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cannon Galleon]]s}}</span><noinclude>
+
+:[[File:CannonGalleonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cannon Galleon]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Cannon Galleon|[[File:CannonGalleonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Cannon Galleon]]}}</span><noinclude>
+
+[[File:CannonGalleonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Cannon Galleon]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Cannon Galleons|[[File:CannonGalleonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Cannon Galleon]]s}}</span><noinclude>
+
+:[[File:CannonGalleonIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Elite Cannon Galleon]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Longboat|[[File:LongboatIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longboat (Age of Empires II)|Longboat]]}}</span><noinclude>
+
+[[File:LongboatIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longboat (Age of Empires II)|Longboat]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Longboats|[[File:LongboatIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longboat (Age of Empires II)|Longboats]]}}</span><noinclude>
+
+:[[File:LongboatIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longboat (Age of Empires II)|Longboats]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Longboat|[[File:LongboatIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longboat (Age of Empires II)|Elite Longboat]]}}</span><noinclude>
+
+[[File:LongboatIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longboat (Age of Empires II)|Elite Longboat]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Longboats|[[File:LongboatIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longboat (Age of Empires II)|Elite Longboats]]}}</span><noinclude>
+
+:[[File:LongboatIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Longboat (Age of Empires II)|Elite Longboats]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Turtle Ship|[[File:TurtleShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Turtle Ship]]}}</span><noinclude>
+
+[[File:TurtleShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Turtle Ship]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Turtle Ships|[[File:TurtleShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Turtle Ship]]s}}</span><noinclude>
+
+:[[File:TurtleShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Turtle Ship]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Turtle Ship|[[File:TurtleShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Turtle Ship|Elite Turtle Ship]]}}</span><noinclude>
+
+[[File:TurtleShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Turtle Ship|Elite Turtle Ship]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Turtle Ships|[[File:TurtleShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Turtle Ship|Elite Turtle Ships]]}}</span><noinclude>
+
+:[[File:TurtleShipIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Turtle Ship|Elite Turtle Ships]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Caravel|[[File:CaravelIcon2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Caravel (Age of Empires II)|Caravel]]}}</span><noinclude>
+
+[[File:CaravelIcon2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Caravel (Age of Empires II)|Caravel]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Caravels|[[File:CaravelIcon2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Caravel (Age of Empires II)|Caravels]]}}</span><noinclude>
+
+:[[File:CaravelIcon2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Caravel (Age of Empires II)|Caravels]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Caravel|[[File:CaravelIcon2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Caravel (Age of Empires II)|Elite Caravel]]}}</span><noinclude>
+
+[[File:CaravelIcon2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Caravel (Age of Empires II)|Elite Caravel]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Elite Caravels|[[File:CaravelIcon2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Caravel (Age of Empires II)|Elite Caravels]]}}</span><noinclude>
+
+:[[File:CaravelIcon2.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Caravel (Age of Empires II)|Elite Caravels]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Gillnets|[[File:Gillnetsicon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Gillnets]]}}</span><noinclude>
+
+[[File:Gillnetsicon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Gillnets]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Careening|[[File:Careening.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Careening]]}}</span><noinclude>
+
+[[File:Careening.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Careening]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Dry Dock|[[File:Drydock.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Dry Dock]]}}</span><noinclude>
+
+[[File:Drydock.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Dry Dock]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Shipwright|[[File:Shipwright.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Shipwright]]}}</span><noinclude>
+
+[[File:Shipwright.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Shipwright]]
+
+=== Defensive structures ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Outpost|[[File:Outposticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Outpost (Age of Empires II)|Outpost]]}}</span><noinclude>
+
+[[File:Outposticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Outpost (Age of Empires II)|Outpost]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Outposts|[[File:Outposticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Outpost (Age of Empires II)|Outposts]]}}</span><noinclude>
+
+:[[File:Outposticon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Outpost (Age of Empires II)|Outposts]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Watch Tower|[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Watch Tower (Age of Empires II)|Watch Tower]]}}</span><noinclude>
+
+[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Watch Tower (Age of Empires II)|Watch Tower]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Watch Towers|[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Watch Tower (Age of Empires II)|Watch Towers]]}}</span><noinclude>
+
+:[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Watch Tower (Age of Empires II)|Watch Towers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Guard Tower|[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Guard Tower (Age of Empires II)|Guard Tower]]}}</span><noinclude>
+
+[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Guard Tower (Age of Empires II)|Guard Tower]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Guard Towers|[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Guard Tower (Age of Empires II)|Guard Towers]]}}</span><noinclude>
+
+:[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Guard Tower (Age of Empires II)|Guard Towers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Keep|[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Keep]]}}</span><noinclude>
+
+[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Keep]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Keeps|[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Keep]]s}}</span><noinclude>
+
+:[[File:Watchtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Keep]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Palisade Wall|[[File:Palisadewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Palisade Wall]]}}</span><noinclude>
+
+[[File:Palisadewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Palisade Wall]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Palisade Walls|[[File:Palisadewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Palisade Wall]]s}}</span><noinclude>
+
+:[[File:Palisadewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Palisade Wall]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Stone Wall|[[File:Stonewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Stone Wall (Age of Empires II)|Stone Wall]]}}</span><noinclude>
+
+[[File:Stonewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Stone Wall (Age of Empires II)|Stone Wall]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Stone Walls|[[File:Stonewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Stone Wall (Age of Empires II)|Stone Walls]]}}</span><noinclude>
+
+:[[File:Stonewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Stone Wall (Age of Empires II)|Stone Walls]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fortified Wall|[[File:Stonewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Fortified Wall (Age of Empires II)|Fortified Wall]]}}</span><noinclude>
+
+[[File:Stonewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Fortified Wall (Age of Empires II)|Fortified Wall]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fortified Walls|[[File:Stonewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Fortified Wall (Age of Empires II)|Fortified Walls]]}}</span><noinclude>
+
+:[[File:Stonewallicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Fortified Wall (Age of Empires II)|Fortified Walls]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Bombard Tower|[[File:Bombardtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Bombard Tower]]}}</span><noinclude>
+
+[[File:Bombardtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Bombard Tower]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Bombard Towers|[[File:Bombardtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Bombard Tower]]s}}</span><noinclude>
+
+:[[File:Bombardtowericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Bombard Tower]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Palisade Gate|[[File:Palisadegateicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Palisade Gate]]}}</span><noinclude>
+
+[[File:Palisadegateicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Palisade Gate]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Palisade Gates|[[File:Palisadegateicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Palisade Gate]]s}}</span><noinclude>
+
+:[[File:Palisadegateicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Palisade Gate]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Gate|[[File:Gateicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gate (Age of Empires II)|Gate]]}}</span><noinclude>
+
+[[File:Gateicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gate (Age of Empires II)|Gate]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Gates|[[File:Gateicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gate (Age of Empires II)|Gates]]}}</span><noinclude>
+
+:[[File:Gateicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Gate (Age of Empires II)|Gates]]
+
+=== Monastery ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Monastery|[[File:Monasteryicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Monastery (Age of Empires II)|Monastery]]}}</span><noinclude>
+
+[[File:Monasteryicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Monastery (Age of Empires II)|Monastery]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Monasteries|[[File:Monasteryicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Monastery (Age of Empires II)|Monasteries]]}}</span><noinclude>
+
+:[[File:Monasteryicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Monastery (Age of Empires II)|Monasteries]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Monk|[[File:MonkIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Monk (Age of Empires II)|Monk]]}}</span><noinclude>
+
+[[File:MonkIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Monk (Age of Empires II)|Monk]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Monks|[[File:MonkIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Monk (Age of Empires II)|Monks]]}}</span><noinclude>
+
+:[[File:MonkIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Monk (Age of Empires II)|Monks]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Missionary|[[File:MissionaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Missionary (Age of Empires II)|Missionary]]}}</span><noinclude>
+
+[[File:MissionaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Missionary (Age of Empires II)|Missionary]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Missionaries|[[File:MissionaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Missionary (Age of Empires II)|Missionaries]]}}</span><noinclude>
+
+:[[File:MissionaryIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Missionary (Age of Empires II)|Missionaries]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Redemption|[[File:Redemption.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Redemption]]}}</span><noinclude>
+
+[[File:Redemption.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Redemption]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Atonement|[[File:Atonement.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Atonement]]}}</span><noinclude>
+
+[[File:Atonement.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Atonement]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Herbal Medicine|[[File:Herbalmedicine.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Herbal Medicine]]}}</span><noinclude>
+
+[[File:Herbalmedicine.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Herbal Medicine]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Heresy|[[File:Heresy.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Heresy]]}}</span><noinclude>
+
+[[File:Heresy.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Heresy]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Sanctity|[[File:Sanctity.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Sanctity]]}}</span><noinclude>
+
+[[File:Sanctity.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Sanctity]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fervor|[[File:Fervor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fervor]]}}</span><noinclude>
+
+[[File:Fervor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fervor]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Faith|[[File:Faith.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Faith]]}}</span><noinclude>
+
+[[File:Faith.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Faith]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Illumination|[[File:Illumination.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Illumination]]}}</span><noinclude>
+
+[[File:Illumination.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Illumination]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Block Printing|[[File:Blockprinting.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Block Printing]]}}</span><noinclude>
+
+[[File:Blockprinting.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Block Printing]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Theocracy|[[File:Theocracy.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Theocracy]]}}</span><noinclude>
+
+[[File:Theocracy.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Theocracy]]
+
+=== Blacksmith ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Blacksmith|[[File:Blacksmithicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Blacksmith]]}}</span><noinclude>
+
+[[File:Blacksmithicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Blacksmith]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Blacksmiths|[[File:Blacksmithicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Blacksmith]]s}}</span><noinclude>
+
+:[[File:Blacksmithicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Blacksmith]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Padded Archer Armor|[[File:Paddedarcherarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Padded Archer Armor]]}}</span><noinclude>
+
+[[File:Paddedarcherarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Padded Archer Armor]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Leather Archer Armor|[[File:Leatherarcherarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Leather Archer Armor]]}}</span><noinclude>
+
+[[File:Leatherarcherarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Leather Archer Armor]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Ring Archer Armor|[[File:Ringarcherarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Ring Archer Armor]]}}</span><noinclude>
+
+[[File:Ringarcherarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Ring Archer Armor]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Fletching|[[File:Fletching.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fletching]]}}</span><noinclude>
+
+[[File:Fletching.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Fletching]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Bodkin Arrow|[[File:Bodkinarrow.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bodkin Arrow]]}}</span><noinclude>
+
+[[File:Bodkinarrow.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bodkin Arrow]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Bracer|[[File:Bracer.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bracer]]}}</span><noinclude>
+
+[[File:Bracer.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bracer]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Forging|[[File:Forging.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Forging]]}}</span><noinclude>
+
+[[File:Forging.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Forging]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Iron Casting|[[File:Ironcasting.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Iron Casting]]}}</span><noinclude>
+
+[[File:Ironcasting.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Iron Casting]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Blast Furnace|[[File:Blastfurnace.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Blast Furnace]]}}</span><noinclude>
+
+[[File:Blastfurnace.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Blast Furnace]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Scale Mail Armor|[[File:Scalemailarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Scale Mail Armor]]}}</span><noinclude>
+
+[[File:Scalemailarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Scale Mail Armor]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Chain Mail Armor|[[File:Chainmailarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Chain Mail Armor]]}}</span><noinclude>
+
+[[File:Chainmailarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Chain Mail Armor]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Plate Mail Armor|[[File:Platemailarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plate Mail Armor]]}}</span><noinclude>
+
+[[File:Platemailarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plate Mail Armor]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Scale Barding Armor|[[File:Scalebardingarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Scale Barding Armor]]}}</span><noinclude>
+
+[[File:Scalebardingarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Scale Barding Armor]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Chain Barding Armor|[[File:Chainbardingarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Chain Barding Armor]]}}</span><noinclude>
+
+[[File:Chainbardingarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Chain Barding Armor]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Plate Barding Armor|[[File:Platebardingarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plate Barding Armor]]}}</span><noinclude>
+
+[[File:Platebardingarmor.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Plate Barding Armor]]
+
+=== University ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|University|[[File:Universityicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[University]]}}</span><noinclude>
+
+[[File:Universityicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[University]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Universities|[[File:Universityicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[University|Universities]]}}</span><noinclude>
+
+:[[File:Universityicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[University|Universities]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Masonry|[[File:Masonry.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Masonry]]}}</span><noinclude>
+
+[[File:Masonry.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Masonry]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Architecture|[[File:Architecture.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Architecture (Age of Empires II)|Architecture]]}}</span><noinclude>
+
+[[File:Architecture.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Architecture (Age of Empires II)|Architecture]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Ballistics|[[File:Ballistics.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Ballistics (Age of Empires II)|Ballistics]]}}</span><noinclude>
+
+[[File:Ballistics.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Ballistics (Age of Empires II)|Ballistics]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Heated Shot|[[File:Heatedshot.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Heated Shot (Age of Empires II)|Heated Shot]]}}</span><noinclude>
+
+[[File:Heatedshot.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Heated Shot (Age of Empires II)|Heated Shot]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Murder Holes|[[File:Murderholes.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Murder Holes]]}}</span><noinclude>
+
+[[File:Murderholes.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Murder Holes]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Treadmill Crane|[[File:Treadmillcrane.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Treadmill Crane]]}}</span><noinclude>
+
+[[File:Treadmillcrane.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Treadmill Crane]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Chemistry|[[File:Chemistry.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Chemistry]]}}</span><noinclude>
+
+[[File:Chemistry.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Chemistry]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Siege Engineers|[[File:Siegeengineers.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Engineers]]}}</span><noinclude>
+
+[[File:Siegeengineers.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Siege Engineers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Arrowslits|[[File:Arrowlits.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Arrowslits]]}}</span><noinclude>
+
+[[File:Arrowlits.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Arrowslits]]
+
+=== Town Center ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Town Center|[[File:Towncentericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Town Center (Age of Empires II)|Town Center]]}}</span><noinclude>
+
+[[File:Towncentericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Town Center (Age of Empires II)|Town Center]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Town Centers|[[File:Towncentericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Town Center (Age of Empires II)|Town Centers]]}}</span><noinclude>
+
+:[[File:Towncentericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Town Center (Age of Empires II)|Town Centers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Villager|[[File:VillagerMaleIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Villager (Age of Empires II)|Villager]]}}</span><noinclude>
+
+[[File:VillagerMaleIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Villager (Age of Empires II)|Villager]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Villagers|[[File:VillagerMaleIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Villager (Age of Empires II)|Villagers]]}}</span><noinclude>
+
+:[[File:VillagerMaleIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Villager (Age of Empires II)|Villagers]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Loom|[[File:Loom.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Loom]]}}</span><noinclude>
+
+[[File:Loom.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Loom]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Wheelbarrow|[[File:Wheelbarrow.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Wheelbarrow (Age of Empires II)|Wheelbarrow]]}}</span><noinclude>
+
+[[File:Wheelbarrow.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Wheelbarrow (Age of Empires II)|Wheelbarrow]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Hand Cart|[[File:Handcart.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hand Cart]]}}</span><noinclude>
+
+[[File:Handcart.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Hand Cart]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Town Watch|[[File:Townwatch.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Town Watch (Age of Empires II)|Town Watch]]}}</span><noinclude>
+
+[[File:Townwatch.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Town Watch (Age of Empires II)|Town Watch]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Town Patrol|[[File:Townpatrol.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Town Patrol]]}}</span><noinclude>
+
+[[File:Townpatrol.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Town Patrol]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Feudal Age|[[File:Feudal-age-reseach.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Feudal Age]]}}</span><noinclude>
+
+[[File:Feudal-age-reseach.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Feudal Age]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Castle Age|[[File:Feudal-age-reseach.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Feudal Age]]}}</span><noinclude>
+
+[[File:Castle-age-reseach.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Castle Age]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Imperial Age|[[File:Imperial-age-research.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Age (Age of Empires II)|Imperial Age]]}}</span><noinclude>
+
+[[File:Imperial-age-research.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Imperial Age (Age of Empires II)|Imperial Age]]
+
+=== Mining Camp ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mining Camp|[[File:Miningcampicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mining Camp (Age of Empires II)|Mining Camp]]}}</span><noinclude>
+
+[[File:Miningcampicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mining Camp (Age of Empires II)|Mining Camp]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mining Camps|[[File:Miningcampicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mining Camp (Age of Empires II)|Mining Camps]]}}</span><noinclude>
+
+:[[File:Miningcampicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mining Camp (Age of Empires II)|Mining Camps]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Stone Mining|[[File:Stonemining.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Stone Mining (Age of Empires II)|Stone Mining]]}}</span><noinclude>
+
+[[File:Stonemining.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Stone Mining (Age of Empires II)|Stone Mining]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Stone Shaft Mining|[[File:Stone Shaft Mining.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Stone Shaft Mining]]}}</span><noinclude>
+
+[[File:Stone Shaft Mining.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Stone Shaft Mining]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Gold Mining|[[File:Goldmining.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Gold Mining (Age of Empires II)|Gold Mining]]}}</span><noinclude>
+
+[[File:Goldmining.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Gold Mining (Age of Empires II)|Gold Mining]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Gold Shaft Mining|[[File:Goldshaftmining.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Gold Shaft Mining]]}}</span><noinclude>
+
+[[File:Goldshaftmining.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Gold Shaft Mining]]
+
+=== Lumber Camp ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Lumber Camp|[[File:Lumbercampicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Lumber Camp (Age of Empires II)|Lumber Camp]]}}</span><noinclude>
+
+[[File:Lumbercampicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Lumber Camp (Age of Empires II)|Lumber Camp]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Lumber Camps|[[File:Lumbercampicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Lumber Camp (Age of Empires II)|Lumber Camps]]}}</span><noinclude>
+
+:[[File:Lumbercampicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Lumber Camp (Age of Empires II)|Lumber Camps]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Double-Bit Axe|[[File:Doublebitaxe.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Double-Bit Axe]]}}</span><noinclude>
+
+[[File:Doublebitaxe.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Double-Bit Axe]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Bow Saw|[[File:Bowsaw.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bow Saw (Age of Empires II)|Bow Saw]]}}</span><noinclude>
+
+[[File:Bowsaw.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Bow Saw (Age of Empires II)|Bow Saw]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Two-Man Saw|[[File:Twomansaw.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Two-Man Saw]]}}</span><noinclude>
+
+[[File:Twomansaw.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Two-Man Saw]]
+
+=== Mill ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Farm|[[File:Farmicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Farm (Age of Empires II)|Farm]]}}</span><noinclude>
+
+[[File:farmicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Farm (Age of Empires II)|Farm]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Farms|[[File:Farmicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Farm (Age of Empires II)|Farms]]}}</span><noinclude>
+
+:[[File:farmicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Farm (Age of Empires II)|Farms]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mill|[[File:Millicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mill (Age of Empires II)|Mill]]}}</span><noinclude>
+
+[[File:Millicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mill (Age of Empires II)|Mill]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Mills|[[File:Millicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mill (Age of Empires II)|Mills]]}}</span><noinclude>
+
+:[[File:Millicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Mill (Age of Empires II)|Mills]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Horse Collar|[[File:Horsecollar.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Horse Collar]]}}</span><noinclude>
+
+[[File:Horsecollar.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Horse Collar]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Heavy Plow|[[File:Heavyplow.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Plow]]}}</span><noinclude>
+
+[[File:Heavyplow.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Heavy Plow]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Crop Rotation|[[File:Croprotation.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Crop Rotation]]}}</span><noinclude>
+
+[[File:Croprotation.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Crop Rotation]]
+
+=== Market ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Market|[[File:Marketicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Market (Age of Empires II)|Market]]}}</span><noinclude>
+
+[[File:Marketicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Market (Age of Empires II)|Market]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Markets|[[File:Marketicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Market (Age of Empires II)|Markets]]}}</span><noinclude>
+
+:[[File:Marketicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Market (Age of Empires II)|Markets]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Trade Cart|[[File:TradeCartIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trade Cart]]}}</span><noinclude>
+
+[[File:TradeCartIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trade Cart]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Trade Carts|[[File:TradeCartIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trade Cart]]s}}</span><noinclude>
+
+:[[File:TradeCartIcon.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Trade Cart]]s
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Cartography|[[File:Cartography.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cartography]]}}</span><noinclude>
+
+[[File:Cartography.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Cartography]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Caravan|[[File:CaravanII.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Caravan (Age of Empires II)|Caravan]]}}</span><noinclude>
+
+[[File:CaravanII.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Caravan (Age of Empires II)|Caravan]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Coinage|[[File:Coinage.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Coinage (Age of Empires II)|Coinage]]}}</span><noinclude>
+
+[[File:Coinage.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Coinage (Age of Empires II)|Coinage]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Banking|[[File:Banking.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Banking]]}}</span><noinclude>
+
+[[File:Banking.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Banking]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Guilds|[[File:Guilds.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Guilds]]}}</span><noinclude>
+
+[[File:Guilds.jpg|{{{2|22}}}px]]{{{3|&#160;}}}[[Guilds]]
+
+=== Other ===
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|House|[[File:Houseicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[House (Age of Empires II)|House]]}}</span><noinclude>
+
+[[File:Houseicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[House (Age of Empires II)|House]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Houses|[[File:Houseicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[House (Age of Empires II)|Houses]]}}</span><noinclude>
+
+:[[File:Houseicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[House (Age of Empires II)|Houses]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Wonder|[[File:Wondericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Wonder (Age of Empires II)|Wonder]]}}</span><noinclude>
+
+[[File:Wondericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Wonder (Age of Empires II)|Wonder]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Wonders|[[File:Wondericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Wonder (Age of Empires II)|Wonders]]}}</span><noinclude>
+
+:[[File:Wondericon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Wonder (Age of Empires II)|Wonders]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Feitoria|[[File:Feitoriaicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Feitoria]]}}</span><noinclude>
+
+[[File:Feitoriaicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Feitoria]]
+
+:::</noinclude><span style="white-space: nowrap">{{#ifeq: {{{1}}}|Feitorias|[[File:Feitoriaicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Feitoria]]s}}</span><noinclude>
+
+:[[File:Feitoriaicon.png|{{{2|22}}}px]]{{{3|&#160;}}}[[Feitoria]]s
+
+[[Category:Templates]]
+</noinclude>
