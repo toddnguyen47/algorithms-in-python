@@ -4,6 +4,14 @@
 import re
 import os.path
 
+def replace_special_chars(str_input):
+    special_chars = ["\\", "\"", ".", "(", ")"]
+    for char in special_chars:
+        str_input = str_input.replace(char, "".join(("\\", char)))
+
+    return str_input
+
+
 input_filename = input("Enter filename: ")
 
 with open("index.html", "r") as file:
