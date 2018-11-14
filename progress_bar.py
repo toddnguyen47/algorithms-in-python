@@ -1,15 +1,21 @@
 import time
 import math
 
-def progress_bar(current, total, elapsed_time):
+def progress_bar(current, total, elapsed_time, char_to_use="#"):
     """
     Return a string that details the current progress using hashtags.
+    
+    # ARGUMENTS
+    current         -> The current progress.
+    total           -> The total of the progress.
+    elapsed_time    -> How much time has passed, in seconds
+    char_to_use     -> What character to use to represent a "filled" progress bar
     """
     max_hashtag = 30
     num_hashtags = math.floor(current / total * max_hashtag)
     s = ""
     for i in range(num_hashtags):
-        s = "".join((s, "#"))
+        s = "".join((s, char_to_use))
     for i in range(max_hashtag - num_hashtags):
         s = "".join((s, " "))
     
@@ -22,8 +28,9 @@ def test(total):
     for x in range(total):
         end_time = time.time()
         elapsed_time = end_time - start_time
-        s = progress_bar(x, total, elapsed_time)
+        s = progress_bar(x + 1, total, elapsed_time, char_to_use="=")
         print(s, end="\r")
+    print("")
 
 
 def print_progress_bar():
@@ -50,10 +57,10 @@ def progress_bar_test(total):
     max_hashtag = 20
     counter = 0
     starttime = time.time()
-    for x in range(total + 1):
+    for x in range(total):
         endtime = time.time()
         elapsedtime = endtime - starttime
-        percent_done = math.floor(x / total * max_hashtag)
+        percent_done = math.floor((x + 1) / total * max_hashtag)
         num_hashtags = get_num_hashtags(percent_done, max_hashtag)
         print("[{}] {:.2%}, {:.2f} seconds elapsed".format(num_hashtags, x / total, elapsedtime), end="\r")
     print("")
@@ -61,4 +68,4 @@ def progress_bar_test(total):
 
 if __name__ == "__main__":
     total = 32767
-    progress_bar_test(total)
+    test(total)
