@@ -5,15 +5,15 @@ def progress_bar(current, total, elapsed_time):
     """
     Return a string that details the current progress using hashtags.
     """
-    max_hashtag = 20
+    max_hashtag = 30
     num_hashtags = math.floor(current / total * max_hashtag)
     s = ""
     for i in range(num_hashtags):
         s = "".join((s, "#"))
-    for i in range(max_hashtags - num_hashtags):
+    for i in range(max_hashtag - num_hashtags):
         s = "".join((s, " "))
     
-    return_string = "[{}] {:.2%} {:.2f}".format(s, current / total, elapsed_time)
+    return_string = "[{}] {:.2%}, {:.2f} seconds collapsed".format(s, current / total, elapsed_time)
     return return_string
 
 
