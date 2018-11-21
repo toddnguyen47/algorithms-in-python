@@ -1,21 +1,8 @@
 from trees import Tree
 
 
-class Node:
-    def __init__(self, key, value, height):
-        self.key = key
-        self.value = value
-        self.left_child = None
-        self.right_child = None
-        self.parent = None
-        self.height = height
-
-    def __str__(self):
-        s = "Key: " + str(self.key) + ", Value: " + str(self.value) + ", Height: " + str(self.height)
-        return s
-
-
 class AvlTrees(Tree):
+    """Self-balancing AVL Trees"""
 
     def __init__(self):
         self.root = None
@@ -54,8 +41,6 @@ class AvlTrees(Tree):
         grandparent.parent = parent
 
         # Update heights
-        parent.height = max(parent.left_child.height, parent.right_child.height)
-        grandparent.height = max(grandparent.left_child.height, grandparent.right_child.height)
 
         # Return the "root" node
         return parent
@@ -77,15 +62,20 @@ class AvlTrees(Tree):
         grandparent.parent = parent
 
         # Update heights
-        parent.height = max(parent.left_child.height, parent.right_child.height)
-        grandparent.height = max(grandparent.left_child.height, grandparent.right_child.height)
 
         # Return the "root" node
         return parent
 
 
-    def get_height(self, node_input):
-        height = 0 if node_input is None else node_input.height
+    def get_height_fn(self, node_input):
+        if node_input is None:
+            height = 0
+        else:
+            # Recursively get the height
+            left_height = self.get_height_fn(node_input.left_child)
+            right_height = self.get_height_fn(node_input.right_child)
+            height = max(left_height, right_height)
+
         return height
 
 
@@ -128,6 +118,5 @@ class AvlTrees(Tree):
             prev_node.right_child = cur_node
 
         # Update prev_node height
-        prev_node.height = max(prev_node.left_child.height, prev_node.right_child.height)
 
         return cur_node
