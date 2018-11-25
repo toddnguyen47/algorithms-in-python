@@ -1,0 +1,2 @@
+# Ignore all compiled pyc files
+avl_trees/__pycache__/

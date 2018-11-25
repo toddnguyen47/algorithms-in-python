@@ -1,3 +1,6 @@
+import functools
+
+
 class Tree:
     def __init__(self):
         raise NotImplementedError
@@ -8,10 +11,14 @@ class Tree:
     def getValue(self, key):
         raise NotImplementedError
 
+    def clear(self):
+        raise NotImplementedError
+
     def printTree(self):
         raise NotImplementedError
 
 
+@functools.total_ordering
 class Node:
     def __init__(self, key, value):
         self.key = key
@@ -25,3 +32,15 @@ class Node:
     def __str__(self):
         s = "Key: " + str(self.key) + ", Value: " + str(self.value) + ", Height: " + str(self.height)
         return s
+
+
+    def __le__(self, other):
+        """Custom defined less than or equal to (LE) function"""
+        return self.key <= other.key
+
+
+    def set_height(self, height):
+        """Set the height while storing the old height"""
+        old_height = self.height
+        self.height = height
+        return old_height
