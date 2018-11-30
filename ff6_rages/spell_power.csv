@@ -1,0 +1,23 @@
+,Ability Name,Magic Power,Description
+2,Metal_Cutter,120,"<td>Deals non-elemental magic damage to one or all targets. Its Spell Power is 120 and its Hit Rate is 120. It is affected by the <a href=""/wiki/Silence_(status)"" title=""Silence (status)"">Silence</a> status.<br/><b>MP Cost:</b> 20
+</td>"
+7,Gigavolt,110,"<td>Deals Lightning-elemental damage to one or all targets. Its Spell Power is 110 and its Hit Rate is 130. It is vulnerable to <a href=""/wiki/Runic"" title=""Runic"">Runic</a> and affected by the <a href=""/wiki/Silence_(status)"" title=""Silence (status)"">Silence</a> status.<br/><b>MP Cost:</b> 20
+</td>"
+6,Magnitude_8,100,"<td>Deals Earth-elemental damage to all targets. Its Spell Power is 100 and its Hit Rate is 130. It is affected by the <a href=""/wiki/Silence_(status)"" title=""Silence (status)"">Silence</a> status.<br/><b>MP Cost:</b> 20
+</td>"
+3,Lifeshaver,84,"<td>Deals <a href=""/wiki/Earth_(element)"" title=""Earth (element)"">Earth</a>-elemental damage to one target, and the damage is absorbed by the caster. Its Spell Power is 84, and it is unblockable. Damage inverts against the Undead, and the spell works on <a href=""/wiki/Float_(status)"" title=""Float (status)"">floating</a> targets. It is affected by the <a href=""/wiki/Silence_(status)"" title=""Silence (status)"">Silence</a> status.<br/><b>MP Cost:</b> 20
+</td>"
+9,Land_Slide,75,"<td>Deals Earth-elemental damage to all targets. Its Spell Power is 75 and it is unblockable. It is affected by the <a href=""/wiki/Silence_(status)"" title=""Silence (status)"">Silence</a> status.<br/><b>MP Cost:</b> 20
+</td>"
+8,Flash_Rain,60,"<td>Deals Ice/Water dual-Elemental damage to all targets. Its Spell Power is 60 with a Hit Rate of 140. It is affected by the <a href=""/wiki/Silence_(status)"" title=""Silence (status)"">Silence</a> status.<br/><b>MP Cost:</b> 20
+</td>"
+10,Fireball,50,"<td>Deals Fire-elemental damage to all targets. Its Spell Power is 50, its Hit Rate is 150, and affected by the <a href=""/wiki/Silence_(status)"" title=""Silence (status)"">Silence</a> status.<br/><b>MP Cost:</b> 20
+</td>"
+1,Snowstorm,25,"<td>Deals Ice-Elemental damage to all targets. Its Spell Power is 25, and its Hit Rate is 140. It is affected by the <a href=""/wiki/Silence_(status)"" title=""Silence (status)"">Silence</a> status.<br/><b>MP Cost:</b> 20
+</td>"
+0,Megavolt,20,"<td>Deals Lightning-elemental damage to one or all targets. Its Spell Power is 20 and its Hit Rate is 150. It is vulnerable to <a href=""/wiki/Runic"" title=""Runic"">Runic</a> and affected by the <a href=""/wiki/Silence_(status)"" title=""Silence (status)"">Silence</a> status.<br/><b>MP Cost:</b> 20
+</td>"
+4,Venomist,20,"<td>Deals Poison-elemental damage and inflicts <a href=""/wiki/Poison_(status)"" title=""Poison (status)"">Poison</a> on all targets. Its Spell Power is 20 and its Hit Rate is 80. Damage is inverted against Undead targets. It is affected by the <a href=""/wiki/Silence_(status)"" title=""Silence (status)"">Silence</a> status.<br/><b>MP Cost:</b> 20
+</td>"
+5,Magitek_Laser,20,"<td>Deals Lightning-elemental damage to one target. Its Spell Power is 20 and its Hit Rate is 150. It is vulnerable to <a href=""/wiki/Runic"" title=""Runic"">Runic</a> and affected by the <a href=""/wiki/Silence_(status)"" title=""Silence (status)"">Silence</a> status.<br/><b>MP Cost:</b> 20
+</td>"
